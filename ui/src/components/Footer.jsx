@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../image/logo.png';
 
 const Footer = (props) => {
     return (
@@ -7,7 +8,7 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4 col-lg-4 footer-about wow fadeInUp">
-                            <img className="logo-footer" src="image/logo.png" alt="MKonsulting" data-at2x="assets/img/logo.png" />
+                            <img className="logo-footer" src={logo} alt="MKonsulting" data-at2x="assets/img/logo.png" />
                             <p>
                                 Nous sommes une jeune entreprise toujours à la recherche d'idées nouvelles et créatives pour
                                 vous aider dans notre
@@ -41,4 +42,4 @@ const Footer = (props) => {
     );
 }
 
-export default Footer; props
+export default Footer;

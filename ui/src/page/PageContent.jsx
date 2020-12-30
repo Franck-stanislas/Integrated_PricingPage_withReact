@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "../js/index";
 
 const PageContent = (props) => {
     return (
@@ -16,7 +17,7 @@ const PageContent = (props) => {
                     </li>
                     <div className="custom-control custom-switch pricing-tab-switch">
                         <input type="checkbox" className="custom-control-input" id="pricing-tab-switch" />
-                        <label className="custom-control-label" for="pricing-tab-switch"><span className="sr-only">Toggle
+                        <label className="custom-control-label" htmlFor="pricing-tab-switch"><span className="sr-only">Toggle
                             Tabs</span></label>
                     </div>
                     <li className="nav-item">

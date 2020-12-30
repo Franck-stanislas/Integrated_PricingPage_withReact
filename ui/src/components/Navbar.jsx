@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import logo from '../image/logo.png';
 
 const Navbar = (props) => {
     return (
@@ -6,7 +7,7 @@ const Navbar = (props) => {
             <div className="container">
                 <nav className="navbar navbar-expand-sm navbar-light bg-white py-4">
                     <a className="navbar-brand" href="#">
-                        <img className="img-fluid" src="./image/logo.png" alt="MKonsulting"/>
+                        <img className="img-fluid" src={logo} alt="MKonsulting"/>
                     </a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
